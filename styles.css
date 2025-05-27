@@ -1,6 +1,6 @@
 hr{
     display: block;
     height: 2px;
-    border: none;
     color: black;
+    background-color: black;
 }
