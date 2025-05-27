@@ -32,6 +32,16 @@ h2{
 }
 
 #maze{
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: 30%;
+}
+
+#shoe{
+    height: auto;
+    width: 30%;
+}
+
+#smart{
+    height: auto;
+    width: 30%;
 }
