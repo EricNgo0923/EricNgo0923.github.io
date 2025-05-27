@@ -22,7 +22,7 @@ h2{
     margin-bottom: 1px;
 }
 
-.title{
+#title{
     font-size: 20px;
     margin-bottom: 2px;
 }
@@ -32,11 +32,6 @@ h2{
 }
 
 #projectimg{
-    display:none;
     height: auto;
     width: 70%;
-}
-
-.title:hover #projectimg{
-    display:block;
 }
