@@ -22,7 +22,7 @@ h2{
     margin-bottom: 1px;
 }
 
-#title{
+.title{
     font-size: 20px;
     margin-bottom: 2px;
 }
@@ -37,7 +37,6 @@ h2{
     width: 70%;
 }
 
-
-p#title:hover #projectimg{
+.title:hover #projectimg{
     display:block;
 }
