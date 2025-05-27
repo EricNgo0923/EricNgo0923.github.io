@@ -31,7 +31,12 @@ h2{
     margin-top: 0px;
 }
 
-#projectimg{
+#vimg{
+    height: auto;
+    width: 30%;
+}
+
+#himg{
     height: auto;
     width: 70%;
 }
