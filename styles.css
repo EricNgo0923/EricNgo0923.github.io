@@ -8,9 +8,9 @@ hr{
 }
 
 body{
-    color: lightblue;
+    color: rgb(91, 178, 207);
 }
 
 #header{
-    align: center;
+    text-align: center;
 }
