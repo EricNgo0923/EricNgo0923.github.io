@@ -38,6 +38,6 @@ h2{
 }
 
 
-#title:hover #projectimg{
+p#title:hover #projectimg{
     display:block;
 }
