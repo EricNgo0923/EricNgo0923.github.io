@@ -31,12 +31,20 @@ h2{
     margin-top: 0px;
 }
 
-#vimg{
+#maze{
     height: auto;
     width: 20%;
+    margin: 2px;
 }
 
-#himg{
+#shoe{
     height: auto;
     width: 60%;
+    margin: 2px;
+}
+
+#smart{
+    height: auto;
+    width: 30%;    
+    margin: 2px;
 }
