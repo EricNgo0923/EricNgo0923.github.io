@@ -30,3 +30,8 @@ h2{
 #project{
     margin-top: 0px;
 }
+
+#maze{
+    height: 50%;
+    width: 50%;
+}
