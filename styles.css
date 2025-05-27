@@ -6,3 +6,11 @@ hr{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+body{
+    color: lightblue;
+}
+
+#header{
+    align: center;
+}
