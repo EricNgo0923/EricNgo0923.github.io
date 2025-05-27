@@ -31,17 +31,13 @@ h2{
     margin-top: 0px;
 }
 
-#maze{
-    height: 30%;
-    width: auto;
+#projectimg{
+    display:none;
+    height: auto;
+    width: 70%;
 }
 
-#shoe{
-    height: auto;
-    width: 50%;
-}
 
-#smart{
-    height: auto;
-    width: 20%;
+#title:hover #projectimg{
+    display:block;
 }
