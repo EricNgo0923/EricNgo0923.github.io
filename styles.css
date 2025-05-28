@@ -1,12 +1,3 @@
-hr{
-    display: block;
-    height: 2px;
-    color: black;
-    background-color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 body{
     background-color: rgb(202, 221, 228);
     padding-bottom: 1%;
@@ -14,35 +5,33 @@ body{
     padding-left: 1%;
 }
 
-#header{
+h1{
+    font-size: 30px;
     text-align: center;
 }
 
-h2{
-    margin-bottom: 1px;
+p{
+    text-align: center;
 }
 
-#title{
+#buttons{
+    align-content: center;
+}
+
+button{
+    background-color: rgb(218, 174, 218);
+    border-color: rgb(216, 135, 216);
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
     font-size: 20px;
-    margin-bottom: 2px;
+    padding: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-#project{
-    margin-top: 0px;
-}
-
-#maze{
-    height: auto;
-    width: 20%;
-    margin: 2px;
-}
-
-#shoe{
-    height: auto;
-    width: 55%;
-    margin: 2px;
-}
-
-#img{
-    text-align:center;
+button:hover{
+    background-color: rgb(216, 125, 216);
 }
