@@ -1,9 +1,10 @@
 body{
     background-color: rgb(202, 221, 228);
-    padding-bottom: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    /*
+    background-image: url();
+    */
 }
 
 h1{
@@ -13,7 +14,7 @@ h1{
 .center{
     text-align: center;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #social{
@@ -22,24 +23,33 @@ h1{
 }
 
 .buttons{
-    align-content: center;
-    float: right;
-}
-
-button{
-    background-color: rgb(124, 192, 218);
-    border-color: rgb(92, 178, 212);
-    border: 1px solid;
-    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color:black;
     text-align: center;
-    font-size: 20px;
-    padding: 5px;
-    margin: 10px;
-
+    overflow: hidden;
+    height: 30px;
+    margin-top: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
 }
 
-button:hover{
-    background-color: rgb(92, 178, 212);
+.buttons a.current{
+    background-color: rgb(185, 136, 218);
+    color:black;
+}
+
+.buttons a{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    background-color: rgb(158, 59, 224);
+    color:black;
 }
 
 #projecttitle{
@@ -55,6 +65,11 @@ button:hover{
     text-align: center;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#projecttools a{
+    text-decoration: none;
 }
 
 .projectimages{
@@ -64,6 +79,17 @@ button:hover{
     align-items: center;
     margin: 10px;
     margin-top: 20px;
+}
+
+.gameButton{
+    background-color: rgb(185, 136, 218);
+    display:inline;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 #mazeimage{
