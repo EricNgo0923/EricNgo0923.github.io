@@ -2,6 +2,7 @@ body{
     background-color: rgb(202, 221, 228);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    font-size: 18px;
     /*
     background-image: url();
     */
@@ -15,11 +16,13 @@ h1{
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    width: 50%;
 }
 
 #social{
     margin:3px;
     text-decoration: none;
+    vertical-align:middle;
 }
 
 .buttons{
@@ -123,6 +126,7 @@ h1{
     width: 50%;
 }
 
-#social{
-    vertical-align:middle;
+#about{
+    line-height: 30px;
 }
+
